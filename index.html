@@ -18,6 +18,8 @@
         h1 {
             font-family: 'Roboto', sans-serif;
             color: #f4f4f4;
+            font-size: 30px;
+            margin-top: 10px;
         }
         .game-container {
             display: grid;
@@ -25,9 +27,9 @@
             grid-gap: 10px;
             margin: 0 auto;
             padding: 10px;
-            width: 90vw;  /* Set width to 90% of the viewport width */
-            max-width: 400px; /* Smaller max width for better visibility on phones */
-            height: 50vh; /* Adjusted height for smaller squares */
+            width: 80vw;  /* Set width to 80% of the viewport width */
+            max-width: 450px; /* Set max width for better visibility on phones */
+            height: 60vh; /* Adjusted height for smaller squares */
             justify-content: center; /* Center the grid horizontally */
         }
         .square {
@@ -50,7 +52,7 @@
         .score {
             margin: 0;
             padding: 10px;
-            font-size: 20px;
+            font-size: 24px;
         }
         #win-message {
             display: none;
@@ -62,7 +64,7 @@
 </head>
 <body>
 
-    <h1>Whack-a-Si Game <span id="version">v2.3</span></h1>
+    <h1>Whack-a-Si Game <span id="version">v2.4</span></h1>
     <p>Click on Si to earn points!</p>
     <div class="score">Score: <span id="score">0</span></div>
     <div id="win-message">You win! 🎉</div>
